@@ -101,7 +101,7 @@ function draw_chart(iso3){
 		.attr('class', 'axis-title')
 	var subtitle = chart_g.append('text')
 		.text('Metric Tons, All Commodities')
-		.attr('transform', 'translate(2,'+settings.subtitle_pad+')')
+		.attr('transform', 'translate(0,'+settings.subtitle_pad+')')
 		.attr('class', 'subtitle')
 }
 
