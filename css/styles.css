@@ -1,5 +1,5 @@
 text{
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 .axis path, .axis line {
@@ -10,6 +10,22 @@ text{
 .axis text{
 	font-size: 12px;
 }
+
+.axis-title{
+	font-size: 16px;
+	font-weight: 700;
+}
+
 #chart-g .title{
-	font-weight: bold;
+	font-weight: 700;
+	font-size: 24px;
+}
+#chart-g .subtitle{
+	font-size: 20px;
+}
+
+.point {
+	fill: indianred;
+	stroke: none;
+	stroke-width:3;
 }
