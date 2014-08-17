@@ -36,7 +36,7 @@ var settings = {
 	x_padding: 100,
 	y_padding: 30,
 	title_padding: 10,
-	title_to_subtitle:20,
+	title_to_subtitle:15,
 	subtitle_to_chart:10,
 	axis_title_pad: 40
 }
